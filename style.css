@@ -1,0 +1,141 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    background-color: #00263b;
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: #00a1ab;
+    padding: 5px;
+}
+
+h1 {
+    font-family: "Workbench", sans-serif;
+    color: #ff5200;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 84px;
+}
+ 
+h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 24px;
+} 
+
+.form-input {
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+    color: #ffffff;
+    background-color: #ff5200;
+    margin: 15px;
+    font-size: 20px;
+}
+
+#carton-size {
+    border-radius: 4px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #ff5200;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.campo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#config-form {
+    margin: 0 auto;
+}
+
+#victorias-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 50px 0px;
+}
+
+.boton-iniciar {
+    margin: 20px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-family: "Workbench", sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    background-color: #00a1ab;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0px 10px 36px 0px rgba(255, 255, 255, 0.17);
+}
+
+#cartones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+
+#juego {
+    margin: 50px 0 0 0;
+}
+  
+.carton {
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+}
+  
+.carton td {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+  
+  
+#sacar-numero,#terminar-juego {
+    margin: 20px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: #00a1ab;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    box-shadow: 0px 10px 36px 0px rgba(255, 255, 255, 0.17);
+}
+  
+#numero-sacado {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 8px;
+    padding: 20px 0px;
+}
+
+@media (max-width: 768px) {
+    .boton-iniciar,.form-input,#carton-size, .boton, #sacar-numero, #numero-sacado, .carton td, .carton, #juego, #cartones,#victorias-lista, #config-form, .campo-form, h1,h2, .header {
+        font-size: 20px;
+    }
+}
